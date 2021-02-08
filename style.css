@@ -99,6 +99,8 @@ button:focus {
     transition: background-color 0.2s ease;
 }
 
+/* Content body */
+
 .single-item {
     border: 2px solid #4d0d4f4b;
     padding: 10px;
@@ -121,8 +123,7 @@ button:focus {
 
 .food-icons:hover {
     padding-right: 30px;
-    color: coral;
-    
+    color: coral; 
 }
 
 .single-item-name {
@@ -134,13 +135,13 @@ button:focus {
 
 #error-message {
     display: none;
-    color: red;
     font-size: 20px;
     border: 2px solid #4d0d4f4b;
     border-radius: 5px;
     padding: 10px;
-
 }
+
+/*Media query starts*/
 
 @media (max-width: 768px) {
 
@@ -151,7 +152,6 @@ button:focus {
     nav {
         display: grid;
         justify-content: center;
-        align-items: center;
     }
 
     .logo {
@@ -159,8 +159,8 @@ button:focus {
     }
 
     .menu {
-        padding: 0;
-        margin: 0;
+        margin-top: 30px;
+        line-height: 0;
     }
 
     .menu-list {
@@ -177,8 +177,7 @@ button:focus {
     }
 
     .modal-dialog {
-        padding: 20px 20px;
-        
+        padding: 20px 20px;    
     }
 
     .modal-body{
